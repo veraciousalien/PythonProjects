@@ -1,0 +1,10 @@
+import random
+
+while True: 
+  print("Rolling the dice")
+  print(random.randint(1,6))
+
+  repeat = input("Do you want to roll the dice again? Enter 'y' for yes 'n' for no" )
+
+  if(repeat == 'n'):
+    break 
